@@ -10,7 +10,7 @@ int main(){
     int choice = 0;
     float sum = 0;
 
-    printf("Enter your choice:\n1 - tomatoes\n2 - flower\n3 - milk\n4 - icecream\n5 - candy\n6 - lollypop\n");
+    printf("Enter your choice:\n1 - tomatoes\n2 - flower\n3 - milk\n4 - icecream\n5 - candy\n6 - lollypop\n7 - exit shop");
 
     do{
         scanf("%d", &choice);
