@@ -6,7 +6,7 @@ int main(){
     printf("Type a number: ");
     scanf("%s", &number);
     for(int i = 0; i <= sizeof(number); i++){
-        if(number[i] == 0 && number[i+1] == 1 && number[i+2] == 0){
+        if(number[i] == '0' && number[i+1] == '1' && number[i+2] == '0'){
             counter++;
         }
     }
