@@ -6,9 +6,9 @@ int main(){
     for(int i = 0; i <= 8; i++){
         str[i] = 0xBB;
 
-    printf("Float is: %X\n", (double)(str[i]));
-    printf("Signed int is: %X\n",(long long)(str[i]));
-    printf("Unsigned int is: %X\n",(unsigned long long)(str[i]));
+    printf("Double is: %X\n", (double)(str[i]));
+    printf("Signed long long is: %X\n",(long long)(str[i]));
+    printf("Unsigned long long is: %X\n",(unsigned long long)(str[i]));
     }
 
 
